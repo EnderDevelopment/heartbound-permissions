@@ -1,0 +1,18 @@
+name: PermanentHearts
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  perm:
+    description: Add permanent hearts to yourself.
+    usage: /perm heart <amount>
+  d:
+    description: Add hearts for a number of days.
+    usage: /d <time> heart [amount]
+  t:
+    description: Add hearts for a number of ticks.
+    usage: /t <time> heart [amount]
+  s:
+    description: Add hearts for a number of seconds.
+    usage: /s <time> heart [amount]
+permissions: {}
